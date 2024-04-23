@@ -1,5 +1,6 @@
 class User < ApplicationRecord
     has_many :posts, class_name: 'Post'
+    # has_many :tags, through: :posts, class_name: 'Tag'
 
     before_save :downcase_email
 

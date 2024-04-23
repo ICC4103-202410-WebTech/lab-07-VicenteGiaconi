@@ -219,6 +219,6 @@ PostTag.create!(
 )
 
 PostTag.create!(
-    post_id: Post.find_by(title:"Im better").id,
+    post_id: Post.find_by(title:"Easy win team").id,
     tag_id: Tag.find_by(name:"rebel").id
 )
